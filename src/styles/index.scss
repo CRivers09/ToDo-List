@@ -1,0 +1,29 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+span {
+    width: 10%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    display: float;
+    float: right;
+    opacity: 0;
+    transition: .2s linear;
+}
+li:hover span {
+    opacity: 1.0;
+}
+input[type="text"] {
+    width: 90%;
+    border: 0px;
+    background-color: transparent;
+}
+.margin {
+    border-right: 2px solid red;
+}
+.line {
+    border-top: 1px solid lightblue;
+}
+.note {
+    word-wrap: break-word;
+}
